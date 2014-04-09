@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" unique-identifier="p000000000000" version="3.0" xml:lang="en">
+  <!--prefix='ibooks' above necessary for iBooks versioning-->
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="p000000000000">p000000000000</dc:identifier>
+    <dc:title>A Life In The Day</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:role="aut">PJ</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:publisher>Cambridge University Press</dc:publisher>
+    <dc:description>A Life In The Day</dc:description>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2014-04-09</dc:date>
+    <meta name="cover" content="cover_image" />
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="dcterms:modified">2014-04-09T15:25:00Z</meta>
+    <meta content="0.7.4" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/main_styles.css" id="main_styles" media-type="text/css" />
+    <item href="Styles/other_styles.css" id="other_styles" media-type="text/css" />
+    <!--SWIPEBOX-->
+    <item href="Images/loader.gif" id="swbox_loader" media-type="image/gif" />
+    <item href="Images/icons.png" id="swbox_icons" media-type="image/png" />
+    <item href="Styles/swipebox.css" id="swbox_swipebox" media-type="text/css" />
+    <item href="Misc/jquery.swipebox.js" id="swbox_jquery.swipebox" media-type="text/javascript" />
+    <item href="Misc/jquery-2.1.0.min.js" id="swbox_jquery-2.1.0.min" media-type="text/javascript" />
+    <item href="Misc/ios-orientationchange-fix.js" id="swbox_ios-orientationchange-fix" media-type="text/javascript" />
+    <!--FONTS-->
+    <item href="Fonts/avenir_regular.ttf" id="avenir_regular" media-type="fonts/ttf" />
+    <item href="Fonts/avenir_italic.ttf" id="avenir_italic" media-type="fonts/ttf" />
+    <item href="Fonts/avenir_demibold.ttf" id="avenir_demibold" media-type="fonts/ttf" />
+    <item href="Fonts/avenir_demibolditalic.ttf" id="avenir_demibolditalic" media-type="fonts/ttf" />
+    <item href="Fonts/avenir_medium.ttf" id="avenir_medium" media-type="fonts/ttf" />
+    <item href="Fonts/avenir_mediumitalic.ttf" id="avenir_mediumitalic" media-type="fonts/ttf" />
+    <item href="Fonts/avenir_ultralight.ttf" id="avenir_ultralight" media-type="fonts/ttf" />
+    <item href="Fonts/avenir_ultralightitalic.ttf" id="avenir_ultralightitalic" media-type="fonts/ttf" />
+    <item href="Fonts/opensans_regular.ttf" id="opensans_regular" media-type="fonts/ttf" />
+    <item href="Fonts/opensans_italic.ttf" id="opensans_italic" media-type="fonts/ttf" />
+    <item href="Fonts/opensans_semibold.ttf" id="opensans_semibold" media-type="fonts/ttf" />
+    <item href="Fonts/opensans_semibolditalic.ttf" id="opensans_semibolditalic" media-type="fonts/ttf" />
+    <item href="Fonts/opensans_light.ttf" id="opensans_light" media-type="fonts/ttf" />
+    <!--MULTIMEDIA-->
+    <item href="Images/video.jpg" id="video.jpg" media-type="image/jpeg" />
+    <!--IMAGES-->
+    <item href="Images/ch_001_banner.jpg" id="ch_001_banner.jpg" media-type="image/jpeg" />
+    <item href="Images/ch_001_article.jpg" id="ch_001_article.jpg" media-type="image/jpeg" />
+    <item href="Images/cover.png" id="cover_image" media-type="image/png" />
+    <item href="Images/icon_book.png" id="icon_book" media-type="image/png" />
+    <item href="Images/icon_chat.png" id="icon_chat" media-type="image/png" />
+    <item href="Images/icon_graph.png" id="icon_graph" media-type="image/png" />
+    <item href="Images/icon_multimedia.png" id="icon_multimedia" media-type="image/png" />
+    <item href="Images/icon_t.png" id="icon_t" media-type="image/png" />
+    <item href="Images/icon_zoom.png" id="icon_zoom" media-type="image/png" />
+    <item href="Images/icon_pen.png" id="icon_pen" media-type="image/png" />
+    <item href="Images/hr_blue.png" id="hr_blue" media-type="image/png" />
+    <item href="Images/hr.png" id="hr" media-type="image/png" />
+    <item href="Images/header_graphic.png" id="header_graphic" media-type="image/png" />
+    <item href="Images/callout_arrow.png" id="callout_arrow" media-type="image/png" />
+    <item href="Images/sig.png" id="sig" media-type="image/png" />
+    <!--PAGES-->
+    <item href="Text/nav.html" id="nav.html" media-type="application/xhtml+xml" properties="nav" />
+    <item href="Text/Section0001.html" id="Section0001.html" media-type="application/xhtml+xml" />
+    <item href="Text/ch_001_article.html" id="ch_001_article" media-type="application/xhtml+xml" />
+    <item href="Text/ch_001.html" id="ch_001.html" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="ch_001.html" />
+    <itemref idref="Section0001.html" />
+    <itemref idref="ch_001_article" linear="no" />
+    <itemref idref="nav.html" />
+  </spine>
+  <guide>
+    <reference href="Text/ch_001.html" title="Cover" type="text" />
+    <reference href="Text/ch_001.html" title="Cover" type="start" />
+    <reference href="Text/ch_001.html" title="Cover Image" type="cover" />
+  </guide>
+</package>

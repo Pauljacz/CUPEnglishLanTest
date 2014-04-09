@@ -1,0 +1,305 @@
+/*
+	=====
+	FONTS
+	=====
+*/
+/* Avenir */
+@font-face { 
+        font-family: "avenir";
+        font-weight: normal;
+        font-style: normal;
+        src: url(../Fonts/avenir_regular.ttf);
+}
+@font-face { 
+        font-family: "avenir";
+        font-weight: normal;
+        font-style: italic;
+        src: url(../Fonts/avenir_italic.ttf);
+}
+@font-face { 
+        font-family: "avenir";
+        font-weight: bold;
+        font-style: normal;
+        src: url(../Fonts/avenir_demibold.ttf);
+}
+@font-face { 
+        font-family: "avenir";
+        font-weight: bold;
+        font-style: italic;
+        src: url(../Fonts/avenir_demibolditalic.ttf);
+}
+/* Avenir Medium and Light Weights */
+@font-face { 
+        font-family: "avenir_medium";
+        font-weight: normal;
+        font-style: normal;
+        src: url(../Fonts/avenir_medium.ttf);
+}
+@font-face { 
+        font-family: "avenir_medium";
+        font-weight: normal;
+        font-style: italic;
+        src: url(../Fonts/avenir_mediumitalic.ttf);
+}
+@font-face { 
+        font-family: "avenir_light";
+        font-weight: bold;
+        font-style: normal;
+        src: url(../Fonts/avenir_ultralight.ttf);
+}
+@font-face { 
+        font-family: "avenir_light";
+        font-weight: bold;
+        font-style: italic;
+        src: url(../Fonts/avenir_ultralightitalic.ttf);
+}
+/* Open Sans */
+@font-face { 
+        font-family: "opensans";
+        font-weight: normal;
+        font-style: normal;
+        src: url(../Fonts/opensans_regular.ttf);
+}
+@font-face { 
+        font-family: "opensans";
+        font-weight: normal;
+        font-style: italic;
+        src: url(../Fonts/opensans_italic.ttf);
+}
+@font-face { 
+        font-family: "opensans";
+        font-weight: bold;
+        font-style: normal;
+        src: url(../Fonts/opensans_semibold.ttf);
+}
+@font-face { 
+        font-family: "opensans";
+        font-weight: bold;
+        font-style: italic;
+        src: url(../Fonts/opensans_semibolditalic.ttf);
+}
+/* Open Sans Light */
+@font-face { 
+        font-family: "opensans_light";
+        font-weight: bold;
+        font-style: italic;
+        src: url(../Fonts/opensans_light.ttf);
+}
+/*
+	======
+	Tables
+	======
+*/
+aside {
+	font-size: 80%;
+	font-style: italic;
+	text-align: justify;
+	margin: 1em auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px #ddd;
+	width: 80%;
+}
+/*
+        =====
+        Icons
+        =====
+*/
+.icon_base {
+        display: block;
+        text-align: center;
+        width: 1.7em;
+        height: 1.7em;
+        padding: 0.2em;
+        font-size: 1.5em;
+        font-family: avenir;
+        line-height: 1.8em;
+        margin-bottom: 0.5em;
+        border-radius: 50%;
+        page-break-inside: avoid;
+        page-break-after: avoid;
+        clear: both;
+}
+/* Icon Types */
+.icon_book {
+        background: url(../Images/icon_book.png) no-repeat center center; 
+        -webkit-background-size: 100%;
+        background-size: 100%;
+}
+.icon_chat {
+        background: url(../Images/icon_chat.png) no-repeat center center; 
+        -webkit-background-size: 100%;
+        background-size: 100%;
+}
+.icon_graph {
+        background: url(../Images/icon_graph.png) no-repeat center center; 
+        -webkit-background-size: 100%;
+        background-size: 100%;
+}
+.icon_multimedia {
+        background: url(../Images/icon_multimedia.png) no-repeat center center; 
+        -webkit-background-size: 100%;
+        background-size: 100%;
+}
+.icon_t {
+        background: url(../Images/icon_t.png) no-repeat center center; 
+        -webkit-background-size: 100%;
+        background-size: 100%;
+}
+.icon_pen {
+        background: url(../Images/icon_pen.png) no-repeat center center; 
+        -webkit-background-size: 100%;
+        background-size: 100%;
+}
+.icon_zoom {
+        background: url(../Images/icon_zoom.png) no-repeat center center; 
+        -webkit-background-size: 100%;
+        background-size: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        margin-left: -0.85em; /* Half of icon_base width, to pull it back */
+}
+/* Icon Colors */
+.icon_blue {
+        color: #fff;
+        background-color: #00b0ec;
+}
+.icon_black {
+        color: #fff;
+        background-color: #000;
+}
+
+/*
+        ================
+        PARAGRAPH STYLES
+        ================
+*/
+.chapter_goals {
+        text-indent: 0em;
+        color: #00b0ec;
+        width: 100%;
+        overflow: hidden;
+        background-color: #242424;
+        padding: 1em 0em;
+        margin: 0em 0em 1em 0em;
+}
+.chapter_goals p, .chapter_goals ul, .chapter_goals .icon_base {
+        margin-left: 5%;
+        margin-right: 5%;
+}
+.callout {
+        width: 100%;
+        margin: 0em auto 1em auto;
+        padding-top: 7px;
+        background: url(../Images/callout_arrow.png) no-repeat 1.2em top;
+        -webkit-background-size: 7px;
+        background-size: 7px;
+        float: left;
+}
+.callout_head {
+        width: 100%;
+        padding: 5px 0em;
+        text-indent: 1em;
+        font-weight: bold;
+        color: #fff;
+        background-color: #000;
+        border-bottom: 2px solid #fff;
+        border-top: 2px solid #00b0ec;
+        overflow: hidden;
+}
+.callout_head_right {
+        display: inline-block;
+        float: right;
+        line-height: 3em;
+        margin-right: 1em;
+}
+.callout_head_icon {
+        margin: 0em;
+        float: left;
+        clear: both;
+        page-break-inside: avoid;
+        height: 3em;
+}
+.callout_head_icon img {
+        page-break-inside: avoid;
+        height: 100%;
+}
+.callout_row {
+        width: 100%;
+        float: left;
+        clear: both;
+        background-color: #ebebeb;
+        margin-top: 0em;
+        text-align: center;
+}
+.callout_row_data {
+        width: 85%;
+        display: inline-block;
+        text-align: left;
+        margin: auto;
+        padding: 1em 0em;
+        border-bottom: 1px #bebebe solid;
+}
+.callout_row_data .bullet {
+        color: #00b0ec;
+        margin-right: 0.5em;
+        margin-left: -1em;
+
+}
+.callout_row_data.noborder {
+        border: 0;
+}
+.table_borderless {
+        width: 100%;
+        margin-bottom: 1em;
+        padding: 0px;
+}
+.table_borderless th {
+        text-align: left;
+        width: 50%;
+        font-size: 1em;
+        font-weight: bold;
+        font-style: italic;
+        border-bottom: 1px solid #c2c2c2;
+}
+
+
+/*
+        ======
+        POETRY
+        ======
+*/
+.poetry_stanza {
+        margin: 1em 5%;
+        width: 90%;
+        font-size: 95%;
+}
+.poetry_line {
+        text-align: left;
+        margin-left: 3.2em;
+        text-indent: -1.7em;
+}
+.poetry_line_numbered {
+        margin-left: 4em;
+        text-indent: -4em;
+}
+.line_number {
+        margin-right: 1em;
+        font-size: 70%;
+}
+.poetry_stanza p {
+        margin-bottom: 0em;
+}
+/*
+        ======================
+        RELATIVE RELATIONSHIPS
+        ======================
+*/
+.chapter_goals span { /* Styles the text separately from the bullets */
+        color: #fff;
+}
+.callout_head + .callout_row {
+        page-break-before: avoid !important;
+}
